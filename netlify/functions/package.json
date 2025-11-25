@@ -1,0 +1,8 @@
+{
+  "name": "core-backend-functions",
+  "version": "1.0.0",
+  "description": "Serverless functions for CoRE website",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
