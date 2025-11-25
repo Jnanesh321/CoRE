@@ -1,21 +1,21 @@
 // Projects data - centralized for easy maintenance
 export const projects = [
-  { 
-    id: 'p1', 
-    title: 'Autonomous Rover', 
-    tags: ['Robotics', 'Embedded', 'IoT'], 
+  {
+    id: 'p1',
+    title: 'Autonomous Rover',
+    tags: ['Robotics', 'Embedded', 'IoT'],
     desc: 'An intelligent rover that navigates obstacles autonomously using sensor fusion and path planning algorithms. Built with Arduino and Raspberry Pi.',
     status: 'Active',
     contributors: 5,
     github: 'https://github.com/core-vcet/autonomous-rover',
     demo: 'https://rover-demo.core-vcet.in',
-    team: 'Led by Rohan Shetty, with contributions from Robotics and Embedded teams',
+    team: 'Led by Rohan Shetty, with contributions from IoT and Embedded teams',
     techStack: ['Arduino', 'Raspberry Pi', 'Python', 'C++', 'OpenCV']
   },
-  { 
-    id: 'p2', 
-    title: 'Smart Home Dashboard', 
-    tags: ['IoT', 'Web', 'Full-Stack'], 
+  {
+    id: 'p2',
+    title: 'Smart Home Dashboard',
+    tags: ['IoT', 'Web', 'Full-Stack'],
     desc: 'A comprehensive dashboard to monitor and control campus IoT sensors. Features real-time data visualization and remote control capabilities.',
     status: 'Active',
     contributors: 8,
@@ -24,10 +24,10 @@ export const projects = [
     team: 'Collaborative project between Web Dev and IoT teams',
     techStack: ['React', 'Node.js', 'MongoDB', 'MQTT', 'Socket.io', 'Chart.js']
   },
-  { 
-    id: 'p3', 
-    title: 'Image Classifier', 
-    tags: ['AI', 'ML', 'Mobile'], 
+  {
+    id: 'p3',
+    title: 'Image Classifier',
+    tags: ['AI', 'ML', 'Mobile'],
     desc: 'Mobile-friendly image classifier trained on campus dataset. Uses TensorFlow Lite for on-device inference with high accuracy.',
     status: 'Active',
     contributors: 4,
@@ -35,10 +35,10 @@ export const projects = [
     team: 'AI/ML team with mobile app development support',
     techStack: ['TensorFlow', 'TensorFlow Lite', 'Python', 'Flutter', 'Keras']
   },
-  { 
-    id: 'p4', 
-    title: 'CoRE Website', 
-    tags: ['Web', 'React', 'Design'], 
+  {
+    id: 'p4',
+    title: 'CoRE Website',
+    tags: ['Web', 'React', 'Design'],
     desc: 'The official CoRE website built with React and modern web technologies. Features responsive design, dark mode, and interactive components.',
     status: 'Active',
     contributors: 3,
@@ -47,10 +47,10 @@ export const projects = [
     team: 'Web Dev and UI/UX Design teams',
     techStack: ['React', 'Vite', 'CSS3', 'React Router', 'Supabase']
   },
-  { 
-    id: 'p5', 
-    title: 'Campus Navigation App', 
-    tags: ['Mobile', 'Flutter', 'Maps'], 
+  {
+    id: 'p5',
+    title: 'Campus Navigation App',
+    tags: ['Mobile', 'Flutter', 'Maps'],
     desc: 'A mobile application to help students navigate the campus efficiently. Includes indoor mapping and location-based services.',
     status: 'In Progress',
     contributors: 6,
@@ -58,10 +58,10 @@ export const projects = [
     team: 'App Dev team with design support',
     techStack: ['Flutter', 'Dart', 'Google Maps API', 'Firebase']
   },
-  { 
-    id: 'p6', 
-    title: 'AI Study Assistant', 
-    tags: ['AI', 'NLP', 'Web'], 
+  {
+    id: 'p6',
+    title: 'AI Study Assistant',
+    tags: ['AI', 'NLP', 'Web'],
     desc: 'An intelligent study assistant that helps students with course materials, generates summaries, and answers questions using AI.',
     status: 'Planning',
     contributors: 7,
@@ -73,28 +73,28 @@ export const projects = [
 
 // Events data
 export const events = [
-  { 
-    id: 'e1', 
-    title: 'Intro to Robotics Workshop', 
-    date: '2025-11-20', 
+  {
+    id: 'e1',
+    title: 'Intro to IoT & Robotics',
+    date: '2025-11-20',
     location: 'Lab A',
     description: 'Learn the basics of robotics, from servo motors to sensor integration. Hands-on session with Arduino kits.',
     category: 'Workshop',
     capacity: 30
   },
-  { 
-    id: 'e2', 
-    title: 'Campus Hackathon', 
-    date: '2025-12-05', 
+  {
+    id: 'e2',
+    title: 'Campus Hackathon',
+    date: '2025-12-05',
     location: 'Auditorium',
     description: '24-hour hackathon to build innovative solutions for campus problems. Prizes worth ₹50,000.',
     category: 'Hackathon',
     capacity: 100
   },
-  { 
-    id: 'e3', 
-    title: 'AI & Embedded Systems', 
-    date: '2026-01-15', 
+  {
+    id: 'e3',
+    title: 'AI & Embedded Systems',
+    date: '2026-01-15',
     location: 'Room 302',
     description: 'Deep dive into AI on edge devices, TensorFlow Lite, and optimization techniques for embedded systems.',
     category: 'Workshop',

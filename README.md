@@ -1,4 +1,4 @@
-# CoRE - Club of Robotics & Electronics | VCET Puttur
+# CoRE - Center of Research Excellence | VCET Puttur
 
 Modern, lightweight React website for CoRE - VCET Puttur's premier technical club. Built with Vite for optimal performance and minimal server memory usage.
 

@@ -13,7 +13,7 @@ export default function Events(){
     <div className="container">
       <SEO 
         title="Upcoming Events" 
-        description="Join CoRE events including workshops, hackathons, and technical competitions. Get tickets for robotics workshops, AI sessions, and campus hackathons at VCET Puttur."
+        description="Join CoRE events including workshops, hackathons, and technical competitions. Get tickets for tech workshops, AI sessions, and campus hackathons at VCET Puttur."
       />
       <h2 className="reveal">Upcoming Events</h2>
       <p className="muted reveal">Grab tickets for workshops and hackathons. Tickets are generated client-side here for demo.</p>
