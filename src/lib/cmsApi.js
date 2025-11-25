@@ -8,7 +8,7 @@ const FALLBACK_DATA = {
     projects_count: '45',
     hero_title: 'The Future of Tech Starts Here',
     hero_subtitle: 'Join CoRE and build real-world projects in Web Dev, AI/ML, IoT, App Dev, Game Dev, and UI/UX Design',
-    club_description: 'CoRE (Club of Robotics & Electronics) is VCET Puttur\'s premier technical club where students learn, build, and innovate together.',
+    club_description: 'CoRE is VCET Puttur\'s premier technical club where students learn, build, and innovate together.',
     contact_email: 'core@vcet.edu.in',
     contact_phone: '+91 12345 67890'
   },

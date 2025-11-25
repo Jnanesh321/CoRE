@@ -337,14 +337,9 @@ html.page-loaded .page-reveal{opacity:1;transform:none}
 
 /* ========== Sceptix-inspired Enhancements ========== */
 
-/* Animated letter spacing for hero text */
-@keyframes letterSpacing {
-  0%, 100% { letter-spacing: -0.02em; }
-  50% { letter-spacing: 0.05em; }
-}
-
+/* Hero h1 styling */
 .hero h1 {
-  animation: letterSpacing 4s ease-in-out infinite;
+  letter-spacing: -0.02em;
 }
 
 /* Glassmorphism cards */

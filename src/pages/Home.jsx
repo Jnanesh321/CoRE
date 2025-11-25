@@ -64,9 +64,9 @@ export default function Home(){
   return (
     <div>
       <BackendStatusBanner isOffline={isOffline} />
-      <SEO 
-        title="Home" 
-        description="CoRE - Club of Robotics & Electronics at VCET Puttur. Join the best technical club to learn Web Dev, AI/ML, IoT, App Dev, Game Dev, and UI/UX Design. Build projects, attend workshops, and grow your skills."
+      <SEO
+        title="Home"
+        description="CoRE at VCET Puttur. Join the best technical club to learn Web Dev, AI/ML, IoT, App Dev, Game Dev, and UI/UX Design. Build projects, attend workshops, and grow your skills."
       />
       <section className="hero">
         <div className="container hero-inner">
@@ -108,13 +108,6 @@ export default function Home(){
               {' '}
               <span style={{opacity: 0.9}}>Inspire the Next.</span>
             </p>
-            <p className="lead reveal" style={{
-              fontSize: '1rem',
-              marginTop: '0.75rem',
-              opacity: 0.7
-            }}>
-              Learn · Apply · Enjoy
-            </p>
           </div>
           
           <p className="hero-cta reveal page-reveal" style={{marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap'}}>
@@ -133,11 +126,6 @@ export default function Home(){
           </ul>
 
           {/* Decorative doodles: replaced by DoodleOverlay (single source) */}
-
-          {/* Scroll indicator */}
-          <div className="scroll-indicator" aria-hidden>
-            <span className="arrow"/>
-          </div>
         </div>
       </section>
 

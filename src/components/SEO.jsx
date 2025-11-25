@@ -14,7 +14,7 @@ export default function SEO({
   const fullUrl = baseUrl + location.pathname
   
   const fullTitle = title ? `${title} | ${siteName}` : siteName
-  const defaultDescription = 'CoRE (Club of Robotics & Electronics) - The premier technical club at VCET Puttur. Join us to learn, build, and innovate in Web Dev, App Dev, AI/ML, IoT, Game Dev, and UI/UX Design.'
+  const defaultDescription = 'CoRE - The premier technical club at VCET Puttur. Join us to learn, build, and innovate in Web Dev, App Dev, AI/ML, IoT, Game Dev, and UI/UX Design.'
 
   useEffect(() => {
     // Update title
